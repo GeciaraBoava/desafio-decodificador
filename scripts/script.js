@@ -1,6 +1,6 @@
 
 function criptografar() {
-    var entradaTexto = document.getElementById("entradaTexto").value;
+    var entradaTexto = document.getElementById("entradaTexto").value.toLowerCase();
     var saidaTexto = document.getElementById("saidaTexto");
     var saidaOrientacoes = document.getElementById("saidaOrientacoes");
     var saidaResultado = document.getElementById("saidaResultado");
